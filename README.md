@@ -4,9 +4,10 @@
 
 ## 📁 Общая структура проекта
 
+```js
 src/
 ├── assets/
-│ └── styles/  
+│ └── styles/
 │ ├── base/
 │ │ ├── \_reset.scss
 │ │ ├── \_typography.scss
@@ -20,18 +21,19 @@ src/
 │ │ └── \_home.scss
 │ ├── utils/
 │ │ └── \_mixins.scss
-│ └── main.scss  
-├── components/  
+│ └── main.scss
+├── components/
 │ ├── Button.vue
 │ └── Input.vue
-├── views/  
+├── views/
 │ └── HomeView.vue
-├── router/  
+├── router/
 │ └── index.js
-├── stores/  
+├── stores/
 │ └── useCounterStore.js
 ├── App.vue
 └── main.js
+```
 
 ---
 
